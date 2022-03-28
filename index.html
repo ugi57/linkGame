@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>学长连连看</title>
+
+	<link rel="stylesheet" href="css/demo.css">
+</head>
+
+<body>
+	<div class="container">
+		<!-- 
+		你能在demo.js文件中找到关键点吗，游戏顺利结束的过程由什么来实现呢?
+		chrome中的控制台(console)有什么作用呢?
+		试着在控制台输入js语句console.log(2333)看看会发生什么
+		既然可以执行js语句那岂不是....
+		-->
+		<span class="title-span">学长♂连连看</span>
+		<p>规定时间内清空即可通关(只需点击相同图案)</p>
+		<div class="star-div">
+			<a href="#" class="btn-div" id="btn-div">开始游戏</a>
+		</div>
+		<div class="top-div">
+			<div class="resetdiv">
+				<a href="#" class="reset">主页</a>
+			</div>
+
+			<div class="timediv">
+				<a class="time">
+					<span class="set-time">40</span>s
+				</a>
+			</div>
+
+		</div>
+
+		<div class="box-div" id="box-div">
+			<!--连连看主体-->
+
+		</div>
+
+	</div>
+
+	<div class="overBack">
+		<div class="game-over"></div>
+		<div class="button-div">
+
+			<span class="back reset start">返回主页</span>
+		</div>
+
+	</div>
+	<div class="gameWin">
+
+		<div class="game-win"></div>
+		<div class="button-div">
+
+			<span class="back reset start">返回主页</span>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+	<script src="js/demo.js"></script>
+</body>
+</html>
